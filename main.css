@@ -99,3 +99,34 @@ background-size cover;
   text-decoration: none;
   color: #333;
 }
+
+.contact-section {
+  padding: 80px;
+}
+
+.contact-form {
+  padding-left: 100px;
+}
+
+.contact-form input[type="submit"] {
+  background: red;
+  border: 1px solid darkred;
+  color: white;
+  padding: 1% 1.5%;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.contact-form input[type="submit"]:hover {
+  background: darkred;
+}
+
+.contact-form textarea {
+  border-radius: 5px;
+  margin-top: 10px;
+  font-family: sans-serif;
+}
+.contact-form input[type="text"] {
+/* top, right , botto, left*/
+  padding: 5px 10px 5px 2px;
+  border-radius: 3px;
+}

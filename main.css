@@ -87,6 +87,7 @@ background-size cover;
   background: white;
   width: 100%;
   border-bottom: 1px solid #333;
+  color: #333;
 }
 
 #navbar ul li {
